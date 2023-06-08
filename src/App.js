@@ -5,7 +5,7 @@ import React from 'react';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Navigation from './components/Navigation.js';
-import Reccomendation from './components/Reccomendation.js';
+import Recomendation from './components/Recomendation.js';
 import { useState } from 'react'
 import Pages from './contexts/Pages.js'
 import Context from './contexts/Context.js'
@@ -25,8 +25,8 @@ function App() {
       currentPage = (<About />)
     } else if (page === Pages.HOME) {
       currentPage = (<Home />)
-    } else if (page === Pages.RECCOMENDATION) {
-      currentPage = (<Reccomendation />)
+    } else if (page === Pages.RECOMENDATION) {
+      currentPage = (<Recomendation />)
     } else if (page === Pages.ESTIMATION) {
       currentPage = (<Estimation />)
     } 

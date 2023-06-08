@@ -1,7 +1,7 @@
 const Pages = {
     ABOUT: "about",
     HOME: "home",
-    RECCOMENDATION: "recommendation",
+    RECOMMENDATION: "recommendation",
     ESTIMATION: "estimation",
 }
 

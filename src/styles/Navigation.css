@@ -1,0 +1,33 @@
+.layout-nav-main-list {
+    display: flex;
+    justify-content: space-between; /* Adjust this property based on your desired layout */
+    align-items: center; /* Adjust this property based on your desired vertical alignment */
+    list-style: none;
+    margin: 20px; /* Add margin to create space */
+    padding-right: 20px; /* Add padding to create space */
+    padding-left: 20px; /* Add padding to create space */
+  }
+  
+  .layout-nav-main-item {
+    /* Add any additional styling for the navigation items here */
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .nav-link {
+    /* Add any additional styling for the navigation links here */
+    text-decoration: none; /* Remove underline */
+    color: #F5F5F5; /* Set default color */
+  }
+
+  .nav-link:hover {
+    color: gray; /* Change color on hover */
+  }
+
+  .align-left {
+    margin-right: auto;
+  }
+  
+  .align-right {
+    margin-left: 20px; /* Adjust the margin value to control the spacing */
+  }

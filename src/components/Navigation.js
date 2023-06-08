@@ -2,6 +2,8 @@ import React from 'react';
 import Pages from '../contexts/Pages.js';
 import Context from '../contexts/Context.js';
 import { useContext } from 'react';
+import '../styles/Navigation.css'
+
 
 const Navigation = () => {
     // Context: user, opened module, page, toast
@@ -37,9 +39,9 @@ const Navigation = () => {
      * Handles Recommendation page being opened.
      * @param {*} e 
      */
-    const handleReccomendationClick = (e) => {
+    const handleRecommendationClick = (e) => {
         e.preventDefault()
-        setPage(Pages.RECCOMENDATION)
+        setPage(Pages.RECOMENDATION)
     }
 
      /**
@@ -53,21 +55,20 @@ const Navigation = () => {
 
   return (
     <nav>
-        <ul className="flex layout-nav-main-list" id="navbarText">
-            <li className="layout-nav-main-item">
-                <a className={"nav-link" + checkIfActive(Pages.HOME)} href="#" onClick={handleHomeClick}>Home</a>
-            </li>
-            <li className="layout-nav-main-item">
-                <a className={"nav-link" + checkIfActive(Pages.ABOUT)} href="#" onClick={handleAboutClick}>About</a>
-            </li>
-            <li className="layout-nav-main-item">
-                <a className={"nav-link" + checkIfActive(Pages.RECCOMENDATION)} href="#" onClick={handleReccomendationClick}>Reccomendation</a>
-            </li>
-            <li className="layout-nav-main-item">
-                <a className={"nav-link" + checkIfActive(Pages.ESTIMATION)} href="#" onClick={handleEstimationClick}>Estimation</a>
-            </li>
-           
-        </ul>
+    <ul className="flex layout-nav-main-list " id="navbarText">
+        <li className="layout-nav-main-item align-left">
+        <a className={"nav-link" + checkIfActive(Pages.HOME)} href="#" onClick={handleHomeClick}>Home</a>
+        </li>
+        <li className="layout-nav-main-item align-right">
+        <a className={"nav-link" + checkIfActive(Pages.RECOMMENDATION)} href="#" onClick={handleRecommendationClick}>Recommendation</a>
+        </li>
+        <li className="layout-nav-main-item align-right">
+        <a className={"nav-link" + checkIfActive(Pages.ESTIMATION)} href="#" onClick={handleEstimationClick}>Estimation</a>
+        </li>
+        <li className="layout-nav-main-item align-right">
+        <a className={"nav-link" + checkIfActive(Pages.ABOUT)} href="#" onClick={handleAboutClick}>About</a>
+        </li>
+    </ul>
     </nav>
     
   );
