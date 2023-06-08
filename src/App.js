@@ -9,6 +9,7 @@ import Reccomendation from './components/Reccomendation.js';
 import { useState } from 'react'
 import Pages from './contexts/Pages.js'
 import Context from './contexts/Context.js'
+import Estimation from './components/Estimation';
 
 function App() {
   const [page, setPage] = useState(null)
@@ -26,6 +27,8 @@ function App() {
       currentPage = (<Home />)
     } else if (page === Pages.RECCOMENDATION) {
       currentPage = (<Reccomendation />)
+    } else if (page === Pages.ESTIMATION) {
+      currentPage = (<Estimation />)
     } 
 
     return (

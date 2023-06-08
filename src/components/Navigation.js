@@ -34,12 +34,21 @@ const Navigation = () => {
     }
 
     /**
-     * Handles Home page being opened.
+     * Handles Recommendation page being opened.
      * @param {*} e 
      */
     const handleReccomendationClick = (e) => {
         e.preventDefault()
         setPage(Pages.RECCOMENDATION)
+    }
+
+     /**
+     * Handles Estimation page being opened.
+     * @param {*} e 
+     */
+     const handleEstimationClick = (e) => {
+        e.preventDefault()
+        setPage(Pages.ESTIMATION)
     }
 
   return (
@@ -53,6 +62,9 @@ const Navigation = () => {
             </li>
             <li className="layout-nav-main-item">
                 <a className={"nav-link" + checkIfActive(Pages.RECCOMENDATION)} href="#" onClick={handleReccomendationClick}>Reccomendation</a>
+            </li>
+            <li className="layout-nav-main-item">
+                <a className={"nav-link" + checkIfActive(Pages.ESTIMATION)} href="#" onClick={handleEstimationClick}>Estimation</a>
             </li>
            
         </ul>
