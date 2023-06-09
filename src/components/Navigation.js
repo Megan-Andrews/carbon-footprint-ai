@@ -41,7 +41,7 @@ const Navigation = () => {
      */
     const handleRecommendationClick = (e) => {
         e.preventDefault()
-        setPage(Pages.RECOMENDATION)
+        setPage(Pages.RECOMMENDATION)
     }
 
      /**
@@ -55,9 +55,9 @@ const Navigation = () => {
 
   return (
     <nav>
-    <ul className="flex layout-nav-main-list " id="navbarText">
+    <ul className="flex layout-nav-main-list uppercase leading-none" id="navbarText">
         <li className="layout-nav-main-item align-left">
-        <a className={"nav-link" + checkIfActive(Pages.HOME)} href="#" onClick={handleHomeClick}>Home</a>
+        <a className={"nav-link " + checkIfActive(Pages.HOME)} href="#" onClick={handleHomeClick}>Home</a>
         </li>
         <li className="layout-nav-main-item align-right">
         <a className={"nav-link" + checkIfActive(Pages.RECOMMENDATION)} href="#" onClick={handleRecommendationClick}>Recommendation</a>

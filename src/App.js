@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './styles/App.css';
 import React from 'react';
 // import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from './components/Home.js';
+import Home from './components/Home.tsx';
 import About from './components/About.js';
 import Navigation from './components/Navigation.js';
 import Recomendation from './components/Recomendation.js';
@@ -25,7 +25,7 @@ function App() {
       currentPage = (<About />)
     } else if (page === Pages.HOME) {
       currentPage = (<Home />)
-    } else if (page === Pages.RECOMENDATION) {
+    } else if (page === Pages.RECOMMENDATION) {
       currentPage = (<Recomendation />)
     } else if (page === Pages.ESTIMATION) {
       currentPage = (<Estimation />)
@@ -35,7 +35,7 @@ function App() {
       <div className="App">
         <Context.Provider value={contexts}>
         {/* <div className='App'> */}
-           <Navigation />
+            <Navigation /> 
            {currentPage}
          {/* </div> */}
       </Context.Provider>
