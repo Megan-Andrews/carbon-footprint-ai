@@ -55,18 +55,14 @@ const Navigation = () => {
 
   return (
     <nav>
-    <ul className="flex layout-nav-main-list uppercase leading-none" id="navbarText">
-        <li className="layout-nav-main-item align-left">
-        <a className={"nav-link " + checkIfActive(Pages.HOME)} href="#" onClick={handleHomeClick}>Home</a>
+    <ul className="flex flex-row  justify-between font-bold p-5">
+        <li className="text-left">
+        <a className={"hover:text-stone-500"} href="#" onClick={handleHomeClick}>CarboPrint.ai</a>
         </li>
-        <li className="layout-nav-main-item align-right">
-        <a className={"nav-link" + checkIfActive(Pages.RECOMMENDATION)} href="#" onClick={handleRecommendationClick}>Recommendation</a>
-        </li>
-        <li className="layout-nav-main-item align-right">
-        <a className={"nav-link" + checkIfActive(Pages.ESTIMATION)} href="#" onClick={handleEstimationClick}>Estimation</a>
-        </li>
-        <li className="layout-nav-main-item align-right">
-        <a className={"nav-link" + checkIfActive(Pages.ABOUT)} href="#" onClick={handleAboutClick}>About</a>
+        <li className="space-x-4">
+            <a className={"hover:text-stone-500"} href="#" onClick={handleRecommendationClick}>Recommendation</a>    
+            <a className={"hover:text-stone-500"} href="#" onClick={handleEstimationClick}>Estimation</a>
+            <a className={"hover:text-stone-500"} href="#" onClick={handleAboutClick}>About</a>
         </li>
     </ul>
     </nav>

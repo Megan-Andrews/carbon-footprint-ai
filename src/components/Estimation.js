@@ -1,86 +1,109 @@
 import React, { useState } from 'react';
+import Dropdown from './Dropdown';
+import gamma from '../data/gamma.json';
+import pue from '../data/pue.json';
+import gpu from '../data/gpu.json';
 
 const Estimation = () => {
-  const [options, setOptions] = useState({
-    option1: false,
-    option2: false,
-    option3: false
-  });
-  const [selectedOption, setSelectedOption] = useState('');
+  const [selectedGPU, setSelectedGPU] = useState(0);
+  const [selectedGamma, setSelectedGamma] = useState(0);
+  const [selectedPUE, setSelectedPUE] = useState(0);
 
-  const handleOptionToggle = (option) => {
-    setOptions(prevOptions => ({
-      ...prevOptions,
-      [option]: !prevOptions[option]
-    }));
+  const [selectedHours, setSelectedHours] = useState(0);
+  const [selectedChips, setSelectedChips] = useState(0);
+  const [selectedGrid, setSelectedGrid] = useState(0);
+
+
+  const handleDropdownGPUChange = (e) => {
+    setSelectedGPU(e.target.value);
   };
 
-  const handleDropdownChange = (e) => {
-    setSelectedOption(e.target.value);
+  const handleDropdownGammaChange = (e) => {
+    setSelectedGamma(e.target.value);
+  };
+
+  const handleDropdownPUEChange = (e) => {
+    setSelectedPUE(e.target.value);
+  };
+
+  const handleHoursChange = (e) => {
+    setSelectedHours(e.target.value);
+  };
+
+  const handleChipsChange = (e) => {
+    setSelectedChips(e.target.value);
+  };
+
+  const handleGridChange = (e) => {
+    setSelectedGrid(e.target.value);
   };
 
   const handleSubmit = () => {
-    console.log('Selected Option:', selectedOption);
-    console.log('Toggle Options:', options);
+    console.log('Form submitted');
+    console.log('Selected GPU:', selectedGPU);
+    console.log('Selected Gamma:', selectedGamma);
+    console.log('Selected PUE:', selectedPUE);
+    console.log('Selected Hours:', selectedHours);
+    console.log('Selected Chips:', selectedChips);
+    console.log('Selected Grid:', selectedGrid);
+    
   };
 
   return (
-    <div className="flex flex-col items-start space-y-4">
-      <div>Estimation Page</div>
-      <div className="flex items-center">
-        <input
-          type="checkbox"
-          id="option1"
-          checked={options.option1}
-          onChange={() => handleOptionToggle('option1')}
-          className="mr-2"
-        />
-        <label htmlFor="option1" className="text-lg font-semibold">Toggle Option 1</label>
-      </div>
-
-      <div className="flex items-center">
-        <input
-          type="checkbox"
-          id="option2"
-          checked={options.option2}
-          onChange={() => handleOptionToggle('option2')}
-          className="mr-2"
-        />
-        <label htmlFor="option2" className="text-lg font-semibold">Toggle Option 2</label>
-      </div>
-
-      <div className="flex items-center">
-        <input
-          type="checkbox"
-          id="option3"
-          checked={options.option3}
-          onChange={() => handleOptionToggle('option3')}
-          className="mr-2"
-        />
-        <label htmlFor="option3" className="text-lg font-semibold">Toggle Option 3</label>
-      </div>
-
-      <div className="flex items-center">
-        <label htmlFor="dropdown" className="text-lg font-semibold mr-2">Select an Option:</label>
-        <select
-          id="dropdown"
-          value={selectedOption}
-          onChange={handleDropdownChange}
-          className="p-2 border border-gray-300 rounded"
-        >
-          <option value="">-- Select --</option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </select>
-      </div>
-
-      <button
-        onClick={handleSubmit}
-        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-      >
-        Submit
-      </button>
+    <div className=" space-y-4"> 
+        <div className='text-4xl font-bold text-center py-4 text-stone-100'>
+          Estimate the CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> emissions of your model</div>
+          <div className='px-[20vw]  space-y-4'>
+            <div className='text-left flex flex-col'> 
+              <span className='text-stone-500 font-bold'>Select your location</span>
+              <Dropdown onChange={handleDropdownGPUChange} options={gamma} labelKey="Regions" valueKey="Gamma"/>
+            </div>
+            <div className='text-left flex flex-col'>
+            <span className='text-stone-500 font-bold'>Select your Cloud Provider</span>
+              <Dropdown onChange={handleDropdownGammaChange} options={pue} labelKey="Providers" valueKey="PUE"/>
+              </div>
+            <div className='text-left flex flex-col'>
+            <span className='text-stone-500 font-bold'>Select your GPU</span>
+              <Dropdown onChange={handleDropdownPUEChange} options={gpu} labelKey="name" valueKey="tdp_watts"/>
+            </div>
+            <div className='text-left flex flex-row space-x-4'>
+              <div className='flex-grow'><span className='text-stone-500 font-bold'>Hours trained</span> 
+                  <input
+                    type="number"
+                    placeholder="Enter a number"
+                    className="w-full px-4 py-2 border border-gray-300 rounded text-stone-600"
+                    onChange={handleHoursChange}
+                  />
+              </div>
+              <div className='flex-grow'>
+                <span className='text-stone-500 font-bold'>Number of processors</span>
+                <input
+                    type="number"
+                    placeholder="Enter a number"
+                    className="w-full px-4 py-2 border border-gray-300 rounded text-stone-600"
+                    onChange={handleChipsChange}
+                  />
+              </div>
+              <div className='flex-grow'>
+                <span className='text-stone-500 font-bold'>Number of grid configurations</span>
+                <input
+                    type="number"
+                    placeholder="Enter a number"
+                    className="w-full px-4 py-2 border border-gray-300 rounded text-stone-600"
+                    onChange={handleGridChange}
+                  />
+              </div>
+             
+            </div>
+          
+          </div>
+          
+        <button
+         onClick={handleSubmit}
+         className="px-4 py-2 bg-stone-500 text-stone-100 rounded hover:bg-stone-600 font-bold hover:text-stone-300"
+       >
+         Submit
+       </button>
     </div>
   );
 };
