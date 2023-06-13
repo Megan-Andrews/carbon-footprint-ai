@@ -13,6 +13,8 @@ const Estimation = () => {
   const [selectedChips, setSelectedChips] = useState(0);
   const [selectedGrid, setSelectedGrid] = useState(0);
 
+  const [emissions, setEmissions] = useState(0);
+  const [emissionsResult, setEmissionsResult] = useState(<></>);
 
   const handleDropdownGPUChange = (e) => {
     setSelectedGPU(e.target.value);
@@ -39,6 +41,12 @@ const Estimation = () => {
   };
 
   const handleSubmit = () => {
+    setEmissions(selectedGPU * selectedGamma * selectedPUE * selectedHours * selectedChips * selectedGrid);
+    setEmissionsResult(
+    <div className='text-2xl font-bold text-center text-lime-200'>
+      Your model emits {emissions} kg of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
+    </div>
+    );
     console.log('Form submitted');
     console.log('Selected GPU:', selectedGPU);
     console.log('Selected Gamma:', selectedGamma);
@@ -52,22 +60,26 @@ const Estimation = () => {
   return (
     <div className=" space-y-4"> 
         <div className='text-4xl font-bold text-center py-4 text-stone-100'>
-          Estimate the CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> emissions of your model</div>
+          Estimate the CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> emissions of your model
+        </div>
+        <div style={{height:"80px"}}>
+          {emissionsResult ? emissionsResult : <></>}
+        </div>
           <div className='px-[20vw]  space-y-4'>
             <div className='text-left flex flex-col'> 
-              <span className='text-stone-500 font-bold'>Select your location</span>
+              <span className='text-stone-400 font-bold'>Select your location</span>
               <Dropdown onChange={handleDropdownGPUChange} options={gamma} labelKey="Regions" valueKey="Gamma"/>
             </div>
             <div className='text-left flex flex-col'>
-            <span className='text-stone-500 font-bold'>Select your Cloud Provider</span>
+            <span className='text-stone-400 font-bold'>Select your Cloud Provider</span>
               <Dropdown onChange={handleDropdownGammaChange} options={pue} labelKey="Providers" valueKey="PUE"/>
               </div>
             <div className='text-left flex flex-col'>
-            <span className='text-stone-500 font-bold'>Select your GPU</span>
+            <span className='text-stone-400 font-bold'>Select your GPU</span>
               <Dropdown onChange={handleDropdownPUEChange} options={gpu} labelKey="name" valueKey="tdp_watts"/>
             </div>
             <div className='text-left flex flex-row space-x-4'>
-              <div className='flex-grow'><span className='text-stone-500 font-bold'>Hours trained</span> 
+              <div className='flex-grow'><span className='text-stone-400 font-bold'>Hours trained</span> 
                   <input
                     type="number"
                     placeholder="Enter a number"
@@ -76,7 +88,7 @@ const Estimation = () => {
                   />
               </div>
               <div className='flex-grow'>
-                <span className='text-stone-500 font-bold'>Number of processors</span>
+                <span className='text-stone-400 font-bold'>Number of processors</span>
                 <input
                     type="number"
                     placeholder="Enter a number"
@@ -85,7 +97,7 @@ const Estimation = () => {
                   />
               </div>
               <div className='flex-grow'>
-                <span className='text-stone-500 font-bold'>Number of grid configurations</span>
+                <span className='text-stone-400 font-bold'>Number of grid configurations</span>
                 <input
                     type="number"
                     placeholder="Enter a number"
