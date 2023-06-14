@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Dropdown from './Dropdown';
-import gamma from '../data/gamma.json';
-import pue from '../data/pue.json';
-import gpu from '../data/gpu.json';
+// import gamma from '../data/gamma.json';
+// import pue from '../data/pue.json';
+// import gpu from '../data/gpu.json';
+// import React, { useState } from 'react';
+import axios from 'axios';
 
 const Estimation = () => {
   const [selectedGPU, setSelectedGPU] = useState(0);
@@ -40,24 +42,36 @@ const Estimation = () => {
     setSelectedGrid(e.target.value);
   };
   
-  
-  const handleSubmit = () => {
-    setEmissions(selectedGPU * selectedGamma * selectedPUE * selectedHours * selectedChips * selectedGrid);
-    setEmissionsResult(
-    <div className='text-2xl font-bold text-center text-lime-200'>
-      Your model emits {emissions} kg of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
-    </div>
-    );
-
-    console.log('Form submitted');
-    console.log('Selected GPU:', selectedGPU);
-    console.log('Selected Gamma:', selectedGamma);
-    console.log('Selected PUE:', selectedPUE);
-    console.log('Selected Hours:', selectedHours);
-    console.log('Selected Chips:', selectedChips);
-    console.log('Selected Grid:', selectedGrid);
-
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await axios.post('/api/my-endpoint', {
+        value1: value1,
+        value2: value2,
+      });
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
+
+  // const handleSubmit = () => {
+  //   setEmissions(selectedGPU * selectedGamma * selectedPUE * selectedHours * selectedChips * selectedGrid);
+  //   setEmissionsResult(
+  //   <div className='text-2xl font-bold text-center text-lime-200'>
+  //     Your model emits {emissions} kg of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
+  //   </div>
+  //   );
+
+  //   console.log('Form submitted');
+  //   console.log('Selected GPU:', selectedGPU);
+  //   console.log('Selected Gamma:', selectedGamma);
+  //   console.log('Selected PUE:', selectedPUE);
+  //   console.log('Selected Hours:', selectedHours);
+  //   console.log('Selected Chips:', selectedChips);
+  //   console.log('Selected Grid:', selectedGrid);
+
+  // };
 
   return (
     <div className=" space-y-4"> 
