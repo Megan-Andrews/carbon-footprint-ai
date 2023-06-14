@@ -1,9 +1,9 @@
 import pandas as pd
 from pandasql import sqldf
 
-gpus_dataset = pd.read_csv("../datasets/gpu.csv")
-gamma_data = pd.read_csv("../datasets/gamma.csv")
-pue_dataset = pd.read_csv("../datasets/pue.csv")
+gpus_dataset = pd.read_csv("datasets/gpu.csv")
+gamma_data = pd.read_csv("datasets/gamma.csv")
+pue_dataset = pd.read_csv("datasets/pue.csv")
 
 def data_parse(user_input,dataframe):
     query = ""

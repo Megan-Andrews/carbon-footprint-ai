@@ -5,1330 +5,1326 @@
     "Year": 2020,
     "Gamma": 0
   },
+  
     {
-       
-      "Regions": "Afghanistan",
-      "Year": 2020,
-      "Gamma": 166.667
-    },
-    {
-       
-      "Regions": "Africa",
-      "Year": 2021,
-      "Gamma": 489.26
-    },
-    {
-       
-      "Regions": "Albania",
-      "Year": 2020,
-      "Gamma": 24.482
-    },
-    {
-       
-      "Regions": "Algeria",
-      "Year": 2020,
-      "Gamma": 485.45
-    },
-    {
-       
-      "Regions": "American Samoa",
-      "Year": 2020,
-      "Gamma": 687.5
-    },
-    {
-       
-      "Regions": "Angola",
-      "Year": 2020,
-      "Gamma": 173.169
-    },
-    {
-       
-      "Regions": "Antigua and Barbuda",
-      "Year": 2020,
-      "Gamma": 676.471
-    },
-    {
-       
-      "Regions": "Argentina",
-      "Year": 2021,
-      "Gamma": 365.292
-    },
-    {
-       
-      "Regions": "Armenia",
-      "Year": 2021,
-      "Gamma": 206.522
-    },
-    {
-       
-      "Regions": "Aruba",
-      "Year": 2020,
-      "Gamma": 586.957
-    },
-    {
-       
-      "Regions": "Asia",
-      "Year": 2021,
-      "Gamma": 543.57
-    },
-    {
-       
-      "Regions": "Australia",
-      "Year": 2021,
-      "Gamma": 526.876
-    },
-    {
-       
-      "Regions": "Austria",
-      "Year": 2021,
-      "Gamma": 145.083
-    },
-    {
-       
-      "Regions": "Azerbaijan",
-      "Year": 2021,
-      "Gamma": 536.585
-    },
-    {
-       
-      "Regions": "Bahamas (the)",
-      "Year": 2020,
-      "Gamma": 700
-    },
-    {
-       
-      "Regions": "Bahrain",
-      "Year": 2020,
-      "Gamma": 490.14
-    },
-    {
-       
-      "Regions": "Bangladesh",
-      "Year": 2021,
-      "Gamma": 559.606
-    },
-    {
-       
-      "Regions": "Barbados",
-      "Year": 2020,
-      "Gamma": 676.471
-    },
-    {
-       
-      "Regions": "Belarus",
-      "Year": 2021,
-      "Gamma": 472.727
-    },
-    {
-       
-      "Regions": "Belgium",
-      "Year": 2021,
-      "Gamma": 156.063
-    },
-    {
-       
-      "Regions": "Belize",
-      "Year": 2020,
-      "Gamma": 483.871
-    },
-    {
-       
-      "Regions": "Benin",
-      "Year": 2020,
-      "Gamma": 652.174
-    },
-    {
-       
-      "Regions": "Bhutan",
-      "Year": 2020,
-      "Gamma": 23.464
-    },
-    {
-       
-      "Regions": "Bolivia",
-      "Year": 2021,
-      "Gamma": 311.475
-    },
-    {
-       
-      "Regions": "Bosnia Herzegovina",
-      "Year": 2021,
-      "Gamma": 470.982
-    },
-    {
-       
-      "Regions": "Botswana",
-      "Year": 2020,
-      "Gamma": 800
-    },
-    {
-       
-      "Regions": "Brazil",
-      "Year": 2021,
-      "Gamma": 144.677
-    },
-    {
-       
-      "Regions": "Brunei Darussalam",
-      "Year": 2020,
-      "Gamma": 659.483
-    },
-    {
-       
-      "Regions": "Bulgaria",
-      "Year": 2021,
-      "Gamma": 364.136
-    },
-    {
-       
-      "Regions": "Burkina Faso",
-      "Year": 2020,
-      "Gamma": 633.721
-    },
-    {
-       
-      "Regions": "Burundi",
-      "Year": 2021,
-      "Gamma": 275.862
-    },
-    {
-       
-      "Regions": "Cabo Verde",
-      "Year": 2020,
-      "Gamma": 574.468
-    },
-    {
-       
-      "Regions": "Cambodia",
-      "Year": 2020,
-      "Gamma": 423.664
-    },
-    {
-       
-      "Regions": "Cameroon",
-      "Year": 2020,
-      "Gamma": 253.915
-    },
-    {
-       
-      "Regions": "Canada",
-      "Year": 2021,
-      "Gamma": 123.859
-    },
-    {
-       
-      "Regions": "Cayman Islands (the)",
-      "Year": 2020,
-      "Gamma": 685.714
-    },
-    {
-       
-      "Regions": "Central African Republic (the)",
-      "Year": 2020,
-      "Gamma": 0
-    },
-    {
-       
-      "Regions": "Chad",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
-      "Regions": "Chile",
-      "Year": 2021,
-      "Gamma": 395.565
-    },
-    {
-       
-      "Regions": "China",
-      "Year": 2021,
-      "Gamma": 549.288
-    },
-    {
-       
-      "Regions": "Colombia",
-      "Year": 2020,
-      "Gamma": 210.526
-    },
-    {
-       
-      "Regions": "Comoros (the)",
-      "Year": 2020,
-      "Gamma": 700
-    },
-    {
-       
-      "Regions": "Congo (the Democratic Republic of the)",
-      "Year": 2020,
-      "Gamma": 25.946
-    },
-    {
-       
-      "Regions": "Congo (the)",
-      "Year": 2020,
-      "Gamma": 374.663
-    },
-    {
-       
-      "Regions": "Cook Islands (the)",
-      "Year": 2020,
-      "Gamma": 500
-    },
-    {
-       
-      "Regions": "Costa Rica",
-      "Year": 2021,
-      "Gamma": 30.903
-    },
-    {
-       
-      "Regions": "Cote d'Ivoire",
-      "Year": 2020,
-      "Gamma": 421.436
-    },
-    {
-       
-      "Regions": "Croatia",
-      "Year": 2021,
-      "Gamma": 212.161
-    },
-    {
-       
-      "Regions": "Cuba",
-      "Year": 2020,
-      "Gamma": 609.969
-    },
-    {
-       
-      "Regions": "Cyprus",
-      "Year": 2021,
-      "Gamma": 601.19
-    },
-    {
-       
-      "Regions": "Czechia",
-      "Year": 2021,
-      "Gamma": 401.272
-    },
-    {
-       
-      "Regions": "Denmark",
-      "Year": 2021,
-      "Gamma": 240.419
-    },
-    {
-       
-      "Regions": "Djibouti",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
-      "Regions": "Dominica",
-      "Year": 2020,
-      "Gamma": 454.545
-    },
-    {
-       
-      "Regions": "Dominican Republic (the)",
-      "Year": 2020,
-      "Gamma": 625.139
-    },
-    {
-       
-      "Regions": "EU",
-      "Year": 2021,
-      "Gamma": 261.43
-    },
-    {
-       
-      "Regions": "Ecuador",
-      "Year": 2021,
-      "Gamma": 132.964
-    },
-    {
-       
-      "Regions": "Egypt",
-      "Year": 2021,
-      "Gamma": 470.879
-    },
-    {
-       
-      "Regions": "El Salvador",
-      "Year": 2021,
-      "Gamma": 180.87
-    },
-    {
-       
-      "Regions": "Equatorial Guinea",
-      "Year": 2020,
-      "Gamma": 628.319
-    },
-    {
-       
-      "Regions": "Eritrea",
-      "Year": 2020,
-      "Gamma": 652.174
-    },
-    {
-       
-      "Regions": "Estonia",
-      "Year": 2021,
-      "Gamma": 488.529
-    },
-    {
-       
-      "Regions": "Eswatini",
-      "Year": 2020,
-      "Gamma": 212.121
-    },
-    {
-       
-      "Regions": "Ethiopia",
-      "Year": 2020,
-      "Gamma": 25.442
-    },
-    {
-       
-      "Regions": "Europe",
-      "Year": 2021,
-      "Gamma": 277.64
-    },
-    {
-       
-      "Regions": "Falkland Islands (the) [Malvinas]",
-      "Year": 2020,
-      "Gamma": 500
-    },
-    {
-       
-      "Regions": "Faroe Islands (the)",
-      "Year": 2020,
-      "Gamma": 384.615
-    },
-    {
-       
-      "Regions": "Fiji",
-      "Year": 2020,
-      "Gamma": 295.238
-    },
-    {
-       
-      "Regions": "Finland",
-      "Year": 2021,
-      "Gamma": 152.651
-    },
-    {
-       
-      "Regions": "France",
-      "Year": 2021,
-      "Gamma": 67.781
-    },
-    {
-       
-      "Regions": "French Guiana",
-      "Year": 2020,
-      "Gamma": 360
-    },
-    {
-       
-      "Regions": "French Polynesia",
-      "Year": 2020,
-      "Gamma": 470.588
-    },
-    {
-       
-      "Regions": "G20",
-      "Year": 2021,
-      "Gamma": 445.9
-    },
-    {
-       
-      "Regions": "G7",
-      "Year": 2021,
-      "Gamma": 338.04
-    },
-    {
-       
-      "Regions": "Gabon",
-      "Year": 2020,
-      "Gamma": 305.648
-    },
-    {
-       
-      "Regions": "Gambia (the)",
-      "Year": 2020,
-      "Gamma": 700
-    },
-    {
-       
-      "Regions": "Georgia",
-      "Year": 2021,
-      "Gamma": 105.685
-    },
-    {
-       
-      "Regions": "Germany",
-      "Year": 2021,
-      "Gamma": 363.982
-    },
-    {
-       
-      "Regions": "Ghana",
-      "Year": 2020,
-      "Gamma": 343.552
-    },
-    {
-       
-      "Regions": "Greece",
-      "Year": 2021,
-      "Gamma": 363.388
-    },
-    {
-       
-      "Regions": "Greenland",
-      "Year": 2020,
-      "Gamma": 133.333
-    },
-    {
-       
-      "Regions": "Grenada",
-      "Year": 2020,
-      "Gamma": 714.286
-    },
-    {
-       
-      "Regions": "Guadeloupe",
-      "Year": 2020,
-      "Gamma": 593.939
-    },
-    {
-       
-      "Regions": "Guam",
-      "Year": 2020,
-      "Gamma": 672.316
-    },
-    {
-       
-      "Regions": "Guatemala",
-      "Year": 2020,
-      "Gamma": 278.46
-    },
-    {
-       
-      "Regions": "Guinea",
-      "Year": 2020,
-      "Gamma": 182.099
-    },
-    {
-       
-      "Regions": "Guinea-Bissau",
-      "Year": 2020,
-      "Gamma": 750
-    },
-    {
-       
-      "Regions": "Guyana",
-      "Year": 2020,
-      "Gamma": 629.31
-    },
-    {
-       
-      "Regions": "Haiti",
-      "Year": 2020,
-      "Gamma": 612.245
-    },
-    {
-       
-      "Regions": "Honduras",
-      "Year": 2020,
-      "Gamma": 345.714
-    },
-    {
-       
-      "Regions": "Hong Kong",
-      "Year": 2020,
-      "Gamma": 684.989
-    },
-    {
-       
-      "Regions": "Hungary",
-      "Year": 2021,
-      "Gamma": 236.271
-    },
-    {
-       
-      "Regions": "Iceland",
-      "Year": 2020,
-      "Gamma": 28.751
-    },
-    {
-       
-      "Regions": "India",
-      "Year": 2021,
-      "Gamma": 632.656
-    },
-    {
-       
-      "Regions": "Indonesia",
-      "Year": 2020,
-      "Gamma": 663.488
-    },
-    {
-       
-      "Regions": "Iran (Islamic Republic of)",
-      "Year": 2020,
-      "Gamma": 487.99
-    },
-    {
-       
-      "Regions": "Iraq",
-      "Year": 2020,
-      "Gamma": 517.746
-    },
-    {
-       
-      "Regions": "Ireland",
-      "Year": 2021,
-      "Gamma": 361.274
-    },
-    {
-       
-      "Regions": "Israel",
-      "Year": 2020,
-      "Gamma": 556.772
-    },
-    {
-       
-      "Regions": "Italy",
-      "Year": 2021,
-      "Gamma": 340.937
-    },
-    {
-       
-      "Regions": "Jamaica",
-      "Year": 2020,
-      "Gamma": 543.943
-    },
-    {
-       
-      "Regions": "Japan",
-      "Year": 2021,
-      "Gamma": 460.647
-    },
-    {
-       
-      "Regions": "Jordan",
-      "Year": 2020,
-      "Gamma": 435.138
-    },
-    {
-       
-      "Regions": "Kazakhstan",
-      "Year": 2021,
-      "Gamma": 656.097
-    },
-    {
-       
-      "Regions": "Kenya",
-      "Year": 2021,
-      "Gamma": 104
-    },
-    {
-       
-      "Regions": "Kiribati",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
-      "Regions": "Korea (the Democratic People's Republic of)",
-      "Year": 2020,
-      "Gamma": 155.161
-    },
-    {
-       
-      "Regions": "Kosovo",
-      "Year": 2020,
-      "Gamma": 777.612
-    },
-    {
-       
-      "Regions": "Kuwait",
-      "Year": 2020,
-      "Gamma": 489.576
-    },
-    {
-       
-      "Regions": "Kyrgyzstan",
-      "Year": 2020,
-      "Gamma": 80.928
-    },
-    {
-       
-      "Regions": "Lao People's Democratic Republic (the)",
-      "Year": 2020,
-      "Gamma": 304.638
-    },
-    {
-       
-      "Regions": "Latin America and Caribbean",
-      "Year": 2021,
-      "Gamma": 261.51
-    },
-    {
-       
-      "Regions": "Latvia",
-      "Year": 2021,
-      "Gamma": 226.351
-    },
-    {
-       
-      "Regions": "Lebanon",
-      "Year": 2020,
-      "Gamma": 546.214
-    },
-    {
-       
       "Regions": "Lesotho",
-      "Year": 2020,
-      "Gamma": 20
+      "Year": "2020",
+      "Gamma": 20,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Liberia",
-      "Year": 2020,
-      "Gamma": 273.81
-    },
-    {
-       
-      "Regions": "Libya",
-      "Year": 2020,
-      "Gamma": 552.366
-    },
-    {
-       
-      "Regions": "Lithuania",
-      "Year": 2021,
-      "Gamma": 247.475
-    },
-    {
-       
-      "Regions": "Luxembourg",
-      "Year": 2021,
-      "Gamma": 183.824
-    },
-    {
-       
-      "Regions": "Macao",
-      "Year": 2020,
-      "Gamma": 482.143
-    },
-    {
-       
-      "Regions": "Madagascar",
-      "Year": 2020,
-      "Gamma": 419.689
-    },
-    {
-       
-      "Regions": "Malawi",
-      "Year": 2020,
-      "Gamma": 113.924
-    },
-    {
-       
-      "Regions": "Malaysia",
-      "Year": 2020,
-      "Gamma": 589.3
-    },
-    {
-       
-      "Regions": "Maldives",
-      "Year": 2020,
-      "Gamma": 704.918
-    },
-    {
-       
-      "Regions": "Mali",
-      "Year": 2020,
-      "Gamma": 472.892
-    },
-    {
-       
-      "Regions": "Malta",
-      "Year": 2021,
-      "Gamma": 452.055
-    },
-    {
-       
-      "Regions": "Martinique",
-      "Year": 2020,
-      "Gamma": 656.25
-    },
-    {
-       
-      "Regions": "Mauritania",
-      "Year": 2020,
-      "Gamma": 530.055
-    },
-    {
-       
-      "Regions": "Mauritius",
-      "Year": 2020,
-      "Gamma": 609.489
-    },
-    {
-       
-      "Regions": "Mexico",
-      "Year": 2021,
-      "Gamma": 391.582
-    },
-    {
-       
-      "Regions": "Middle East",
-      "Year": 2021,
-      "Gamma": 526.87
-    },
-    {
-       
-      "Regions": "Moldova",
-      "Year": 2021,
-      "Gamma": 642.512
-    },
-    {
-       
-      "Regions": "Mongolia",
-      "Year": 2021,
-      "Gamma": 725.26
-    },
-    {
-       
-      "Regions": "Montenegro",
-      "Year": 2021,
-      "Gamma": 335.958
-    },
-    {
-       
-      "Regions": "Montserrat",
-      "Year": 2020,
-      "Gamma": 500
-    },
-    {
-       
-      "Regions": "Morocco",
-      "Year": 2020,
-      "Gamma": 624.966
-    },
-    {
-       
-      "Regions": "Mozambique",
-      "Year": 2020,
-      "Gamma": 134.444
-    },
-    {
-       
-      "Regions": "Myanmar",
-      "Year": 2020,
-      "Gamma": 312.683
-    },
-    {
-       
-      "Regions": "Namibia",
-      "Year": 2020,
-      "Gamma": 48.077
-    },
-    {
-       
-      "Regions": "Nauru",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
       "Regions": "Nepal",
-      "Year": 2020,
-      "Gamma": 22.654
+      "Year": "2020",
+      "Gamma": 22.654,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Netherlands",
-      "Year": 2021,
-      "Gamma": 386.189
+      "Regions": "Bhutan",
+      "Year": "2020",
+      "Gamma": 23.464,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "New Caledonia",
-      "Year": 2020,
-      "Gamma": 637.631
-    },
-    {
-       
-      "Regions": "New Zealand",
-      "Year": 2020,
-      "Gamma": 149.274
-    },
-    {
-       
-      "Regions": "Nicaragua",
-      "Year": 2020,
-      "Gamma": 350.731
-    },
-    {
-       
-      "Regions": "Niger (the)",
-      "Year": 2020,
-      "Gamma": 672.414
-    },
-    {
-       
-      "Regions": "Nigeria",
-      "Year": 2020,
-      "Gamma": 398.363
-    },
-    {
-       
-      "Regions": "North America",
-      "Year": 2021,
-      "Gamma": 345.38
-    },
-    {
-       
-      "Regions": "North Macedonia",
-      "Year": 2021,
-      "Gamma": 444.191
-    },
-    {
-       
-      "Regions": "Norway",
-      "Year": 2021,
-      "Gamma": 26.131
-    },
-    {
-       
-      "Regions": "OECD",
-      "Year": 2021,
-      "Gamma": 338.24
-    },
-    {
-       
-      "Regions": "Oceania",
-      "Year": 2021,
-      "Gamma": 479.98
-    },
-    {
-       
-      "Regions": "Oman",
-      "Year": 2020,
-      "Gamma": 489.87
-    },
-    {
-       
-      "Regions": "Pakistan",
-      "Year": 2021,
-      "Gamma": 363.065
-    },
-    {
-       
-      "Regions": "Palestine, State of",
-      "Year": 2020,
-      "Gamma": 630.769
-    },
-    {
-       
-      "Regions": "Panama",
-      "Year": 2020,
-      "Gamma": 242.57
-    },
-    {
-       
-      "Regions": "Papua New Guinea",
-      "Year": 2020,
-      "Gamma": 556.931
-    },
-    {
-       
       "Regions": "Paraguay",
-      "Year": 2020,
-      "Gamma": 23.916
+      "Year": "2020",
+      "Gamma": 23.916,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Peru",
-      "Year": 2021,
-      "Gamma": 241.492
+      "Regions": "Albania",
+      "Year": "2020",
+      "Gamma": 24.482,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Philippines (the)",
-      "Year": 2021,
-      "Gamma": 579.689
+      "Regions": "Ethiopia",
+      "Year": "2020",
+      "Gamma": 25.442,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Poland",
-      "Year": 2021,
-      "Gamma": 657.138
+      "Regions": "Congo (the Democratic Republic of the)",
+      "Year": "2020",
+      "Gamma": 25.946,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Portugal",
-      "Year": 2021,
-      "Gamma": 222.632
+      "Regions": "Norway",
+      "Year": "2021",
+      "Gamma": 26.131,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Puerto Rico",
-      "Year": 2020,
-      "Gamma": 601.734
+      "Regions": "Iceland",
+      "Year": "2020",
+      "Gamma": 28.751,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Qatar",
-      "Year": 2020,
-      "Gamma": 489.87
+      "Regions": "Costa Rica",
+      "Year": "2021",
+      "Gamma": 30.903,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Reunion",
-      "Year": 2020,
-      "Gamma": 452.769
-    },
-    {
-       
-      "Regions": "Romania",
-      "Year": 2021,
-      "Gamma": 255.718
-    },
-    {
-       
-      "Regions": "Russian Federation (the)",
-      "Year": 2021,
-      "Gamma": 355.431
-    },
-    {
-       
-      "Regions": "Rwanda",
-      "Year": 2020,
-      "Gamma": 377.358
-    },
-    {
-       
-      "Regions": "Saint Kitts and Nevis",
-      "Year": 2020,
-      "Gamma": 681.818
-    },
-    {
-       
-      "Regions": "Saint Lucia",
-      "Year": 2020,
-      "Gamma": 685.714
-    },
-    {
-       
-      "Regions": "Saint Pierre and Miquelon",
-      "Year": 2020,
-      "Gamma": 800
-    },
-    {
-       
-      "Regions": "Saint Vincent and the Grenadines",
-      "Year": 2020,
-      "Gamma": 500
-    },
-    {
-       
-      "Regions": "Samoa",
-      "Year": 2020,
-      "Gamma": 428.571
-    },
-    {
-       
-      "Regions": "Sao Tome and Principe",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
-      "Regions": "Saudi Arabia",
-      "Year": 2021,
-      "Gamma": 568.967
-    },
-    {
-       
-      "Regions": "Senegal",
-      "Year": 2021,
-      "Gamma": 540.098
-    },
-    {
-       
-      "Regions": "Serbia",
-      "Year": 2021,
-      "Gamma": 549.083
-    },
-    {
-       
-      "Regions": "Seychelles",
-      "Year": 2020,
-      "Gamma": 693.878
-    },
-    {
-       
-      "Regions": "Sierra Leone",
-      "Year": 2020,
-      "Gamma": 47.619
-    },
-    {
-       
-      "Regions": "Singapore",
-      "Year": 2021,
-      "Gamma": 488.21
-    },
-    {
-       
-      "Regions": "Slovakia",
-      "Year": 2021,
-      "Gamma": 173.854
-    },
-    {
-       
-      "Regions": "Slovenia",
-      "Year": 2021,
-      "Gamma": 241.956
-    },
-    {
-       
-      "Regions": "Solomon Islands",
-      "Year": 2020,
-      "Gamma": 700
-    },
-    {
-       
-      "Regions": "Somalia",
-      "Year": 2020,
-      "Gamma": 657.143
-    },
-    {
-       
-      "Regions": "South Africa",
-      "Year": 2021,
-      "Gamma": 706.991
-    },
-    {
-       
-      "Regions": "South Korea",
-      "Year": 2021,
-      "Gamma": 442.389
-    },
-    {
-       
-      "Regions": "South Sudan",
-      "Year": 2020,
-      "Gamma": 709.091
-    },
-    {
-       
-      "Regions": "Spain",
-      "Year": 2021,
-      "Gamma": 193.737
-    },
-    {
-       
-      "Regions": "Sri Lanka",
-      "Year": 2020,
-      "Gamma": 494.275
-    },
-    {
-       
-      "Regions": "Sudan (the)",
-      "Year": 2020,
-      "Gamma": 266.106
-    },
-    {
-       
-      "Regions": "Suriname",
-      "Year": 2020,
-      "Gamma": 305.085
-    },
-    {
-       
       "Regions": "Sweden",
-      "Year": 2021,
-      "Gamma": 43.9
+      "Year": "2021",
+      "Gamma": 43.9,
+      "FIELD4": null
     },
     {
-       
+      "Regions": "Sierra Leone",
+      "Year": "2020",
+      "Gamma": 47.619,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Namibia",
+      "Year": "2020",
+      "Gamma": 48.077,
+      "FIELD4": null
+    },
+    {
       "Regions": "Switzerland",
-      "Year": 2021,
-      "Gamma": 58.952
+      "Year": "2021",
+      "Gamma": 58.952,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Syrian Arab Republic (the)",
-      "Year": 2020,
-      "Gamma": 538.554
+      "Regions": "France",
+      "Year": "2021",
+      "Gamma": 67.781,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Taiwan (Province of China)",
-      "Year": 2021,
-      "Gamma": 565.629
-    },
-    {
-       
       "Regions": "Tajikistan",
-      "Year": 2021,
-      "Gamma": 72.823
+      "Year": "2021",
+      "Gamma": 72.823,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Tanzania, the United Republic of",
-      "Year": 2020,
-      "Gamma": 386.792
-    },
-    {
-       
-      "Regions": "Thailand",
-      "Year": 2021,
-      "Gamma": 503.034
-    },
-    {
-       
-      "Regions": "Togo",
-      "Year": 2020,
-      "Gamma": 592.593
-    },
-    {
-       
-      "Regions": "Tonga",
-      "Year": 2020,
-      "Gamma": 666.667
-    },
-    {
-       
-      "Regions": "Trinidad and Tobago",
-      "Year": 2020,
-      "Gamma": 520.278
-    },
-    {
-       
-      "Regions": "Tunisia",
-      "Year": 2021,
-      "Gamma": 470.848
-    },
-    {
-       
-      "Regions": "Turkey",
-      "Year": 2021,
-      "Gamma": 432.293
-    },
-    {
-       
-      "Regions": "Turkmenistan",
-      "Year": 2020,
-      "Gamma": 544.381
-    },
-    {
-       
-      "Regions": "Turks and Caicos Islands (the)",
-      "Year": 2020,
-      "Gamma": 708.333
-    },
-    {
-       
       "Regions": "Uganda",
-      "Year": 2020,
-      "Gamma": 77.088
+      "Year": "2020",
+      "Gamma": 77.088,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Ukraine",
-      "Year": 2021,
-      "Gamma": 240.28
+      "Regions": "Kyrgyzstan",
+      "Year": "2020",
+      "Gamma": 80.928,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "United Arab Emirates",
-      "Year": 2020,
-      "Gamma": 471.57
+      "Regions": "Kenya",
+      "Year": "2021",
+      "Gamma": 104,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "United Kingdom",
-      "Year": 2021,
-      "Gamma": 268.255
+      "Regions": "Georgia",
+      "Year": "2021",
+      "Gamma": 105.685,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "United States of America",
-      "Year": 2021,
-      "Gamma": 378.625
-    },
-    {
-       
       "Regions": "Uruguay",
-      "Year": 2020,
-      "Gamma": 106.013
+      "Year": "2020",
+      "Gamma": 106.013,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Uzbekistan",
-      "Year": 2020,
-      "Gamma": 496.78
+      "Regions": "Malawi",
+      "Year": "2020",
+      "Gamma": 113.924,
+      "FIELD4": null
     },
     {
-       
-      "Regions": "Vanuatu",
-      "Year": 2020,
-      "Gamma": 571.429
-    },
-    {
-       
-      "Regions": "Venezuela (Bolivarian Republic of)",
-      "Year": 2020,
-      "Gamma": 192.012
-    },
-    {
-       
-      "Regions": "Viet Nam",
-      "Year": 2021,
-      "Gamma": 491.192
-    },
-    {
-       
-      "Regions": "Virgin Islands (British)",
-      "Year": 2020,
-      "Gamma": 714.286
-    },
-    {
-       
-      "Regions": "Virgin Islands (U.S.)",
-      "Year": 2020,
-      "Gamma": 693.548
-    },
-    {
-       
-      "Regions": "World",
-      "Year": 2021,
-      "Gamma": 442.37
-    },
-    {
-       
-      "Regions": "Yemen",
-      "Year": 2020,
-      "Gamma": 540.698
-    },
-    {
-       
       "Regions": "Zambia",
-      "Year": 2020,
-      "Gamma": 120.776
+      "Year": "2020",
+      "Gamma": 120.776,
+      "FIELD4": null
     },
     {
-       
+      "Regions": "Canada",
+      "Year": "2021",
+      "Gamma": 123.859,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Ecuador",
+      "Year": "2021",
+      "Gamma": 132.964,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Greenland",
+      "Year": "2020",
+      "Gamma": 133.333,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Mozambique",
+      "Year": "2020",
+      "Gamma": 134.444,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Brazil",
+      "Year": "2021",
+      "Gamma": 144.677,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Austria",
+      "Year": "2021",
+      "Gamma": 145.083,
+      "FIELD4": null
+    },
+    {
+      "Regions": "New Zealand",
+      "Year": "2020",
+      "Gamma": 149.274,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Finland",
+      "Year": "2021",
+      "Gamma": 152.651,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Korea (the Democratic People's Republic of)",
+      "Year": "2020",
+      "Gamma": 155.161,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Belgium",
+      "Year": "2021",
+      "Gamma": 156.063,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Afghanistan",
+      "Year": "2020",
+      "Gamma": 166.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Angola",
+      "Year": "2020",
+      "Gamma": 173.169,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Slovakia",
+      "Year": "2021",
+      "Gamma": 173.854,
+      "FIELD4": null
+    },
+    {
+      "Regions": "El Salvador",
+      "Year": "2021",
+      "Gamma": 180.87,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guinea",
+      "Year": "2020",
+      "Gamma": 182.099,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Luxembourg",
+      "Year": "2021",
+      "Gamma": 183.824,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Venezuela (Bolivarian Republic of)",
+      "Year": "2020",
+      "Gamma": 192.012,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Spain",
+      "Year": "2021",
+      "Gamma": 193.737,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Armenia",
+      "Year": "2021",
+      "Gamma": 206.522,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Colombia",
+      "Year": "2020",
+      "Gamma": 210.526,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Eswatini",
+      "Year": "2020",
+      "Gamma": 212.121,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Croatia",
+      "Year": "2021",
+      "Gamma": 212.161,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Portugal",
+      "Year": "2021",
+      "Gamma": 222.632,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Latvia",
+      "Year": "2021",
+      "Gamma": 226.351,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Hungary",
+      "Year": "2021",
+      "Gamma": 236.271,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Ukraine",
+      "Year": "2021",
+      "Gamma": 240.28,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Denmark",
+      "Year": "2021",
+      "Gamma": 240.419,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Peru",
+      "Year": "2021",
+      "Gamma": 241.492,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Slovenia",
+      "Year": "2021",
+      "Gamma": 241.956,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Panama",
+      "Year": "2020",
+      "Gamma": 242.57,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Lithuania",
+      "Year": "2021",
+      "Gamma": 247.475,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cameroon",
+      "Year": "2020",
+      "Gamma": 253.915,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Romania",
+      "Year": "2021",
+      "Gamma": 255.718,
+      "FIELD4": null
+    },
+    {
+      "Regions": "EU",
+      "Year": "2021",
+      "Gamma": 261.43,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Latin America and Caribbean",
+      "Year": "2021",
+      "Gamma": 261.51,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Sudan (the)",
+      "Year": "2020",
+      "Gamma": 266.106,
+      "FIELD4": null
+    },
+    {
+      "Regions": "United Kingdom",
+      "Year": "2021",
+      "Gamma": 268.255,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Liberia",
+      "Year": "2020",
+      "Gamma": 273.81,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Burundi",
+      "Year": "2021",
+      "Gamma": 275.862,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Europe",
+      "Year": "2021",
+      "Gamma": 277.64,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guatemala",
+      "Year": "2020",
+      "Gamma": 278.46,
+      "FIELD4": null
+    },
+    {
       "Regions": "Zimbabwe",
-      "Year": 2020,
-      "Gamma": 288.24
+      "Year": "2020",
+      "Gamma": 288.24,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Fiji",
+      "Year": "2020",
+      "Gamma": 295.238,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Lao People's Democratic Republic (the)",
+      "Year": "2020",
+      "Gamma": 304.638,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Suriname",
+      "Year": "2020",
+      "Gamma": 305.085,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Gabon",
+      "Year": "2020",
+      "Gamma": 305.648,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bolivia",
+      "Year": "2021",
+      "Gamma": 311.475,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Myanmar",
+      "Year": "2020",
+      "Gamma": 312.683,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Montenegro",
+      "Year": "2021",
+      "Gamma": 335.958,
+      "FIELD4": null
+    },
+    {
+      "Regions": "G7",
+      "Year": "2021",
+      "Gamma": 338.04,
+      "FIELD4": null
+    },
+    {
+      "Regions": "OECD",
+      "Year": "2021",
+      "Gamma": 338.24,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Italy",
+      "Year": "2021",
+      "Gamma": 340.937,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Ghana",
+      "Year": "2020",
+      "Gamma": 343.552,
+      "FIELD4": null
+    },
+    {
+      "Regions": "North America",
+      "Year": "2021",
+      "Gamma": 345.38,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Honduras",
+      "Year": "2020",
+      "Gamma": 345.714,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Nicaragua",
+      "Year": "2020",
+      "Gamma": 350.731,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Russian Federation (the)",
+      "Year": "2021",
+      "Gamma": 355.431,
+      "FIELD4": null
+    },
+    {
+      "Regions": "French Guiana",
+      "Year": "2020",
+      "Gamma": 360,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Ireland",
+      "Year": "2021",
+      "Gamma": 361.274,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Pakistan",
+      "Year": "2021",
+      "Gamma": 363.065,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Greece",
+      "Year": "2021",
+      "Gamma": 363.388,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Germany",
+      "Year": "2021",
+      "Gamma": 363.982,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bulgaria",
+      "Year": "2021",
+      "Gamma": 364.136,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Argentina",
+      "Year": "2021",
+      "Gamma": 365.292,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Congo (the)",
+      "Year": "2020",
+      "Gamma": 374.663,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Rwanda",
+      "Year": "2020",
+      "Gamma": 377.358,
+      "FIELD4": null
+    },
+    {
+      "Regions": "United States of America",
+      "Year": "2021",
+      "Gamma": 378.625,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Faroe Islands (the)",
+      "Year": "2020",
+      "Gamma": 384.615,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Netherlands",
+      "Year": "2021",
+      "Gamma": 386.189,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Tanzania",
+      "Year": " the United Republic of",
+      "Gamma": 2020,
+      "FIELD4": 386.792
+    },
+    {
+      "Regions": "Mexico",
+      "Year": "2021",
+      "Gamma": 391.582,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Chile",
+      "Year": "2021",
+      "Gamma": 395.565,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Nigeria",
+      "Year": "2020",
+      "Gamma": 398.363,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Czechia",
+      "Year": "2021",
+      "Gamma": 401.272,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Madagascar",
+      "Year": "2020",
+      "Gamma": 419.689,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cote d'Ivoire",
+      "Year": "2020",
+      "Gamma": 421.436,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cambodia",
+      "Year": "2020",
+      "Gamma": 423.664,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Samoa",
+      "Year": "2020",
+      "Gamma": 428.571,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Turkey",
+      "Year": "2021",
+      "Gamma": 432.293,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Jordan",
+      "Year": "2020",
+      "Gamma": 435.138,
+      "FIELD4": null
+    },
+    {
+      "Regions": "World",
+      "Year": "2021",
+      "Gamma": 442.37,
+      "FIELD4": null
+    },
+    {
+      "Regions": "South Korea",
+      "Year": "2021",
+      "Gamma": 442.389,
+      "FIELD4": null
+    },
+    {
+      "Regions": "North Macedonia",
+      "Year": "2021",
+      "Gamma": 444.191,
+      "FIELD4": null
+    },
+    {
+      "Regions": "G20",
+      "Year": "2021",
+      "Gamma": 445.9,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Malta",
+      "Year": "2021",
+      "Gamma": 452.055,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Reunion",
+      "Year": "2020",
+      "Gamma": 452.769,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Dominica",
+      "Year": "2020",
+      "Gamma": 454.545,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Japan",
+      "Year": "2021",
+      "Gamma": 460.647,
+      "FIELD4": null
+    },
+    {
+      "Regions": "French Polynesia",
+      "Year": "2020",
+      "Gamma": 470.588,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Tunisia",
+      "Year": "2021",
+      "Gamma": 470.848,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Egypt",
+      "Year": "2021",
+      "Gamma": 470.879,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bosnia Herzegovina",
+      "Year": "2021",
+      "Gamma": 470.982,
+      "FIELD4": null
+    },
+    {
+      "Regions": "United Arab Emirates",
+      "Year": "2020",
+      "Gamma": 471.57,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Belarus",
+      "Year": "2021",
+      "Gamma": 472.727,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Mali",
+      "Year": "2020",
+      "Gamma": 472.892,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Oceania",
+      "Year": "2021",
+      "Gamma": 479.98,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Macao",
+      "Year": "2020",
+      "Gamma": 482.143,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Belize",
+      "Year": "2020",
+      "Gamma": 483.871,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Algeria",
+      "Year": "2020",
+      "Gamma": 485.45,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Iran (Islamic Republic of)",
+      "Year": "2020",
+      "Gamma": 487.99,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Singapore",
+      "Year": "2021",
+      "Gamma": 488.21,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Estonia",
+      "Year": "2021",
+      "Gamma": 488.529,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Africa",
+      "Year": "2021",
+      "Gamma": 489.26,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Kuwait",
+      "Year": "2020",
+      "Gamma": 489.576,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Oman",
+      "Year": "2020",
+      "Gamma": 489.87,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Qatar",
+      "Year": "2020",
+      "Gamma": 489.87,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bahrain",
+      "Year": "2020",
+      "Gamma": 490.14,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Viet Nam",
+      "Year": "2021",
+      "Gamma": 491.192,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Sri Lanka",
+      "Year": "2020",
+      "Gamma": 494.275,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Uzbekistan",
+      "Year": "2020",
+      "Gamma": 496.78,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Saint Vincent and the Grenadines",
+      "Year": "2020",
+      "Gamma": 500,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Falkland Islands (the) [Malvinas]",
+      "Year": "2020",
+      "Gamma": 500,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cook Islands (the)",
+      "Year": "2020",
+      "Gamma": 500,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Montserrat",
+      "Year": "2020",
+      "Gamma": 500,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Thailand",
+      "Year": "2021",
+      "Gamma": 503.034,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Iraq",
+      "Year": "2020",
+      "Gamma": 517.746,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Trinidad and Tobago",
+      "Year": "2020",
+      "Gamma": 520.278,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Middle East",
+      "Year": "2021",
+      "Gamma": 526.87,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Australia",
+      "Year": "2021",
+      "Gamma": 526.876,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Mauritania",
+      "Year": "2020",
+      "Gamma": 530.055,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Azerbaijan",
+      "Year": "2021",
+      "Gamma": 536.585,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Syrian Arab Republic (the)",
+      "Year": "2020",
+      "Gamma": 538.554,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Senegal",
+      "Year": "2021",
+      "Gamma": 540.098,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Yemen",
+      "Year": "2020",
+      "Gamma": 540.698,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Asia",
+      "Year": "2021",
+      "Gamma": 543.57,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Jamaica",
+      "Year": "2020",
+      "Gamma": 543.943,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Turkmenistan",
+      "Year": "2020",
+      "Gamma": 544.381,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Lebanon",
+      "Year": "2020",
+      "Gamma": 546.214,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Serbia",
+      "Year": "2021",
+      "Gamma": 549.083,
+      "FIELD4": null
+    },
+    {
+      "Regions": "China",
+      "Year": "2021",
+      "Gamma": 549.288,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Libya",
+      "Year": "2020",
+      "Gamma": 552.366,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Israel",
+      "Year": "2020",
+      "Gamma": 556.772,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Papua New Guinea",
+      "Year": "2020",
+      "Gamma": 556.931,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bangladesh",
+      "Year": "2021",
+      "Gamma": 559.606,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Taiwan (Province of China)",
+      "Year": "2021",
+      "Gamma": 565.629,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Saudi Arabia",
+      "Year": "2021",
+      "Gamma": 568.967,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Vanuatu",
+      "Year": "2020",
+      "Gamma": 571.429,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cabo Verde",
+      "Year": "2020",
+      "Gamma": 574.468,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Philippines (the)",
+      "Year": "2021",
+      "Gamma": 579.689,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Aruba",
+      "Year": "2020",
+      "Gamma": 586.957,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Malaysia",
+      "Year": "2020",
+      "Gamma": 589.3,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Togo",
+      "Year": "2020",
+      "Gamma": 592.593,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guadeloupe",
+      "Year": "2020",
+      "Gamma": 593.939,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cyprus",
+      "Year": "2021",
+      "Gamma": 601.19,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Puerto Rico",
+      "Year": "2020",
+      "Gamma": 601.734,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Mauritius",
+      "Year": "2020",
+      "Gamma": 609.489,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cuba",
+      "Year": "2020",
+      "Gamma": 609.969,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Haiti",
+      "Year": "2020",
+      "Gamma": 612.245,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Morocco",
+      "Year": "2020",
+      "Gamma": 624.966,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Dominican Republic (the)",
+      "Year": "2020",
+      "Gamma": 625.139,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Equatorial Guinea",
+      "Year": "2020",
+      "Gamma": 628.319,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guyana",
+      "Year": "2020",
+      "Gamma": 629.31,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Palestine, State of",
+      "Year": "2020",
+      "Gamma": 630.769,
+      "FIELD4": null
+    },
+    {
+      "Regions": "India",
+      "Year": "2021",
+      "Gamma": 632.656,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Burkina Faso",
+      "Year": "2020",
+      "Gamma": 633.721,
+      "FIELD4": null
+    },
+    {
+      "Regions": "New Caledonia",
+      "Year": "2020",
+      "Gamma": 637.631,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Moldova",
+      "Year": "2021",
+      "Gamma": 642.512,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Eritrea",
+      "Year": "2020",
+      "Gamma": 652.174,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Benin",
+      "Year": "2020",
+      "Gamma": 652.174,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Kazakhstan",
+      "Year": "2021",
+      "Gamma": 656.097,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Martinique",
+      "Year": "2020",
+      "Gamma": 656.25,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Poland",
+      "Year": "2021",
+      "Gamma": 657.138,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Somalia",
+      "Year": "2020",
+      "Gamma": 657.143,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Brunei Darussalam",
+      "Year": "2020",
+      "Gamma": 659.483,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Indonesia",
+      "Year": "2020",
+      "Gamma": 663.488,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Djibouti",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Kiribati",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Chad",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Sao Tome and Principe",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Nauru",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Tonga",
+      "Year": "2020",
+      "Gamma": 666.667,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guam",
+      "Year": "2020",
+      "Gamma": 672.316,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Niger (the)",
+      "Year": "2020",
+      "Gamma": 672.414,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Antigua and Barbuda",
+      "Year": "2020",
+      "Gamma": 676.471,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Barbados",
+      "Year": "2020",
+      "Gamma": 676.471,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Saint Kitts and Nevis",
+      "Year": "2020",
+      "Gamma": 681.818,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Hong Kong",
+      "Year": "2020",
+      "Gamma": 684.989,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Cayman Islands (the)",
+      "Year": "2020",
+      "Gamma": 685.714,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Saint Lucia",
+      "Year": "2020",
+      "Gamma": 685.714,
+      "FIELD4": null
+    },
+    {
+      "Regions": "American Samoa",
+      "Year": "2020",
+      "Gamma": 687.5,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Virgin Islands (U.S.)",
+      "Year": "2020",
+      "Gamma": 693.548,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Seychelles",
+      "Year": "2020",
+      "Gamma": 693.878,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Comoros (the)",
+      "Year": "2020",
+      "Gamma": 700,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Solomon Islands",
+      "Year": "2020",
+      "Gamma": 700,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Bahamas (the)",
+      "Year": "2020",
+      "Gamma": 700,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Gambia (the)",
+      "Year": "2020",
+      "Gamma": 700,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Maldives",
+      "Year": "2020",
+      "Gamma": 704.918,
+      "FIELD4": null
+    },
+    {
+      "Regions": "South Africa",
+      "Year": "2021",
+      "Gamma": 706.991,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Turks and Caicos Islands (the)",
+      "Year": "2020",
+      "Gamma": 708.333,
+      "FIELD4": null
+    },
+    {
+      "Regions": "South Sudan",
+      "Year": "2020",
+      "Gamma": 709.091,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Virgin Islands (British)",
+      "Year": "2020",
+      "Gamma": 714.286,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Grenada",
+      "Year": "2020",
+      "Gamma": 714.286,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Mongolia",
+      "Year": "2021",
+      "Gamma": 725.26,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Guinea-Bissau",
+      "Year": "2020",
+      "Gamma": 750,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Kosovo",
+      "Year": "2020",
+      "Gamma": 777.612,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Botswana",
+      "Year": "2020",
+      "Gamma": 800,
+      "FIELD4": null
+    },
+    {
+      "Regions": "Saint Pierre and Miquelon",
+      "Year": "2020",
+      "Gamma": 800,
+      "FIELD4": null
     }
+
    ]

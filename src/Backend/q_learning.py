@@ -73,6 +73,13 @@ def actions1(component,action,state):
             output_value = 1  # maybe change it : 10 gpus
         info_value = str(output_value)
         # 15,000/50 
+    # elif component == 5:  # batch of 5 hours-> 96 batches in total
+    #     output_value = input_value + dict_act[action]
+    #     if output_value > 96:
+    #         output_value = 96
+    #     elif output_value <= 0:
+    #         output_value = 1  # maybe change it : 10 gpus
+    #     info_value = str(output_value)
     return [info_value,output_value]
             
 # testing
@@ -83,7 +90,7 @@ class env():
     # start from state and then take an action to return next state and the reward in the next state
     def __init__(self, curr_state,termination_co2):
         # 7 actions can be taken 
-        self.action_space = Discrete(7)          
+        # self.action_space = Discrete(7)          
         self.curr_state = curr_state
         self.termination_co2 = termination_co2
         # self.info_action = (0,0,0,0,0)
@@ -97,8 +104,8 @@ class env():
         # 15,000 -> divided by 100
         for i in range(len(curr_state)):
             product *= curr_state[i]
-            product = product/ 1000
-        return product*250
+        product = product/(1000*1000*1000)
+        return product*250*5
     
        
     def step(self,info_action):
@@ -144,6 +151,7 @@ class env():
                2: "The recommended GPU is "+str(info_list[2]),
                3: "The recommended number of Grid Configurations is "+str(info_list[3])+" (in batches of 5)",
                4: "The recommended number of chips is "+str(info_list[4])+ " (in batches of 50)"}
+            #    5: "The recommended number of hours is "+str(info_list[5])+ " (in batches of 5)"}
         return self.curr_state, reward, done, info
         
     # difference between reset and init
@@ -268,7 +276,6 @@ def i_to_val(tensor_array, actions):
 # print(i_to_val(qval,[0,1,6,5,4]))
 
 
-# In[48]:
 
 
 def linear_schedule(start_e: float, end_e: float, duration: int, t: int):
@@ -326,13 +333,13 @@ def training(env,current_state):
         current_state = next_state
         
     # Human Language conversion
-    curr_carbon_emission = str(((env.carbon_emissions(current_state))))
-    string_return = f"""Current State: {current_state}, \nCurrent Carbon Emissions: {curr_carbon_emission} \nThe Recommendations are as follows: \n"""
-
+    string_return = "The Recommendations are as follows: \n"
     for value in infos.values():
         string_return += f"""{value}\n"""
     
     # string_return += "The new carbon estimation is "+(str((env.carbon_emissions(current_state))))
+    curr_carbon_emission = str((env.carbon_emissions(current_state))) + " tonnes, multiplied by the number of hours trained."
+    string_return += f"""Current State: {current_state}, \nCurrent Carbon Emissions: {curr_carbon_emission}"""
 
     return string_return
 

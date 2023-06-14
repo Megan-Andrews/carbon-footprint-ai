@@ -4,180 +4,16 @@
     "type": "none",
     "tdp_watts": 0
   },
-    {
-      "name": "A100 PCIe 40/80GB",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "A100 SXM4 80 GB",
-      "type": "gpu",
-      "tdp_watts": 400
-    },
+
     {
       "name": "AGX Xavier",
       "type": "gpu",
       "tdp_watts": 30
     },
     {
-      "name": "AMD RX480",
-      "type": "gpu",
-      "tdp_watts": 150
-    },
-    {
-      "name": "GTX 1080 Ti",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "GTX 1080",
-      "type": "gpu",
-      "tdp_watts": 180
-    },
-    {
-      "name": "GTX 750",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "GTX TITAN X",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Quadro K6000",
-      "type": "gpu",
-      "tdp_watts": 225
-    },
-    {
-      "name": "Quadro P6000",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "RTX 2080 Ti",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "RTX 2080",
-      "type": "gpu",
-      "tdp_watts": 215
-    },
-    {
-      "name": "RTX 8000",
-      "type": "gpu",
-      "tdp_watts": 260
-    },
-    {
       "name": "T4",
       "type": "gpu",
       "tdp_watts": 70
-    },
-    {
-      "name": "Tesla K40c",
-      "type": "gpu",
-      "tdp_watts": 245
-    },
-    {
-      "name": "Tesla K80",
-      "type": "gpu",
-      "tdp_watts": 300
-    },
-    {
-      "name": "Tesla M40 24GB",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Tesla P100",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Tesla P40",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Tesla V100-PCIE-16GB",
-      "type": "gpu",
-      "tdp_watts": 300
-    },
-    {
-      "name": "Tesla V100-SXM2-16GB",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Tesla V100-SXM2-32GB",
-      "type": "gpu",
-      "tdp_watts": 300
-    },
-    {
-      "name": "Titan RTX",
-      "type": "gpu",
-      "tdp_watts": 280
-    },
-    {
-      "name": "Titan V",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "TITAN X Pascal",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "Titan Xp",
-      "type": "gpu",
-      "tdp_watts": 250
-    },
-    {
-      "name": "TPUv2 Chip",
-      "type": "tpu",
-      "tdp_watts": 221
-    },
-    {
-      "name": "TPUv3 Chip",
-      "type": "tpu",
-      "tdp_watts": 283
-    },
-    {
-      "name": "RTX 3080",
-      "type": "gpu",
-      "tdp_watts": 320
-    },
-    {
-      "name": "RTX 3080 TI",
-      "type": "gpu",
-      "tdp_watts": 350
-    },
-    {
-      "name": "RTX 3090",
-      "type": "gpu",
-      "tdp_watts": 350
-    },
-    {
-      "name": "RTX A4000",
-      "type": "gpu",
-      "tdp_watts": 140
-    },
-    {
-      "name": "RTX A5000",
-      "type": "gpu",
-      "tdp_watts": 230
-    },
-    {
-      "name": "RTX A6000",
-      "type": "gpu",
-      "tdp_watts": 300
-    },
-    {
-      "name": "Intel Xeon E5-2699",
-      "type": "cpu",
-      "tdp_watts": 145
     },
     {
       "name": "Intel Xeon E5-2630v4",
@@ -195,13 +31,179 @@
       "tdp_watts": 125
     },
     {
+      "name": "RTX A4000",
+      "type": "gpu",
+      "tdp_watts": 140
+    },
+    {
+      "name": "Intel Xeon E5-2699",
+      "type": "cpu",
+      "tdp_watts": 145
+    },
+    {
+      "name": "AMD RX480",
+      "type": "gpu",
+      "tdp_watts": 150
+    },
+    {
       "name": "Intel Xeon Gold 6148",
       "type": "cpu",
       "tdp_watts": 150
     },
     {
+      "name": "GTX 1080",
+      "type": "gpu",
+      "tdp_watts": 180
+    },
+    {
+      "name": "RTX 2080",
+      "type": "gpu",
+      "tdp_watts": 215
+    },
+    {
+      "name": "TPUv2 Chip",
+      "type": "tpu",
+      "tdp_watts": 221
+    },
+    {
+      "name": "Quadro K6000",
+      "type": "gpu",
+      "tdp_watts": 225
+    },
+    {
+      "name": "RTX A5000",
+      "type": "gpu",
+      "tdp_watts": 230
+    },
+    {
+      "name": "Tesla K40c",
+      "type": "gpu",
+      "tdp_watts": 245
+    },
+    {
+      "name": "RTX 2080 Ti",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Tesla M40 24GB",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Tesla P100",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Tesla P40",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Quadro P6000",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Tesla V100-SXM2-16GB",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "GTX TITAN X",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "GTX 750",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Titan V",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "TITAN X Pascal",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "Titan Xp",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "GTX 1080 Ti",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "A100 PCIe 40/80GB",
+      "type": "gpu",
+      "tdp_watts": 250
+    },
+    {
+      "name": "RTX 8000",
+      "type": "gpu",
+      "tdp_watts": 260
+    },
+    {
       "name": "AMD EPYC 7763",
       "type": "cpu",
       "tdp_watts": 280
+    },
+    {
+      "name": "Titan RTX",
+      "type": "gpu",
+      "tdp_watts": 280
+    },
+    {
+      "name": "TPUv3 Chip",
+      "type": "tpu",
+      "tdp_watts": 283
+    },
+    {
+      "name": "RTX A6000",
+      "type": "gpu",
+      "tdp_watts": 300
+    },
+    {
+      "name": "Tesla V100-SXM2-32GB",
+      "type": "gpu",
+      "tdp_watts": 300
+    },
+    {
+      "name": "Tesla K80",
+      "type": "gpu",
+      "tdp_watts": 300
+    },
+    {
+      "name": "Tesla V100-PCIE-16GB",
+      "type": "gpu",
+      "tdp_watts": 300
+    },
+    {
+      "name": "RTX 3080",
+      "type": "gpu",
+      "tdp_watts": 320
+    },
+    {
+      "name": "RTX 3090",
+      "type": "gpu",
+      "tdp_watts": 350
+    },
+    {
+      "name": "RTX 3080 TI",
+      "type": "gpu",
+      "tdp_watts": 350
+    },
+    {
+      "name": "A100 SXM4 80 GB",
+      "type": "gpu",
+      "tdp_watts": 400
     }
+
    ]

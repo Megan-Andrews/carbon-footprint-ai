@@ -1,26 +1,36 @@
 [
-    {
-      "Providers": "--Select--",
-      "PUE": 0
-    },
+  
     {
       "Providers": "Google Cloud",
       "PUE": 1.1
     },
-    {  
-      "Providers": "Microsoft Azure",
-      "PUE": 1.18
-    },
-    {  
-      "Providers": "Alibaba Cloud",
-      "PUE": 1.25
-    },
-    {  
+    {
       "Providers": "Amazon Web Services",
       "PUE": 1.15
     },
-    {  
+    {
+      "Providers": "Microsoft Azure",
+      "PUE": 1.18
+    },
+    {
+      "Providers": "Tencent Cloud",
+      "PUE": 1.2
+    },
+    {
+      "Providers": "Alibaba Cloud",
+      "PUE": 1.25
+    },
+    {
+      "Providers": "OVH Cloud",
+      "PUE": 1.28
+    },
+    {
       "Providers": "Oracle Cloud Infrastructure",
       "PUE": 1.31
+    },
+    {
+      "Providers": "IBM Cloud",
+      "PUE": 1.53
     }
+   
    ]

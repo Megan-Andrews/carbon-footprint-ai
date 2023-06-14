@@ -39,7 +39,8 @@ const Estimation = () => {
   const handleGridChange = (e) => {
     setSelectedGrid(e.target.value);
   };
-
+  
+  
   const handleSubmit = () => {
     setEmissions(selectedGPU * selectedGamma * selectedPUE * selectedHours * selectedChips * selectedGrid);
     setEmissionsResult(
@@ -47,6 +48,7 @@ const Estimation = () => {
       Your model emits {emissions} kg of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
     </div>
     );
+
     console.log('Form submitted');
     console.log('Selected GPU:', selectedGPU);
     console.log('Selected Gamma:', selectedGamma);
@@ -54,7 +56,7 @@ const Estimation = () => {
     console.log('Selected Hours:', selectedHours);
     console.log('Selected Chips:', selectedChips);
     console.log('Selected Grid:', selectedGrid);
-    
+
   };
 
   return (
