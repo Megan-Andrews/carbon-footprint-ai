@@ -1,0 +1,50 @@
+[
+    {
+      "Model": "Average Canadian Car for 10 Years",
+      "CO2 Emissions (tonnes)": 46
+    },
+    {
+      "Model": "1 passenger on a 24-Hour Flight",
+      "CO2 Emissions (tonnes)": 6
+    },
+    {
+      "Model": "Average Canadian in 1 year 2019",
+      "CO2 Emissions (tonnes)": 14.2
+    },
+    {
+      "Model": "Average Canadian Household with 5 people in 2019",
+      "CO2 Emissions (tonnes)": 19
+    },
+    {
+      "Model": "Energy used by 50 average homes in the US for one year",
+      "CO2 Emissions (tonnes)": 400
+    },
+    {
+      "Model": "50,000 Gallons of Gasoline Burned",
+      "CO2 Emissions (tonnes)": 444
+    },
+    {
+      "Model": "15,000,000 smartphones charged",
+      "CO2 Emissions (tonnes)": 124
+    },
+    {
+      "Model": "Electricity for 24 Average US homes in 1 year",
+      "CO2 Emissions (tonnes)": 124
+    },
+    {
+      "Model": "GPT-3 Model",
+      "CO2 Emissions (tonnes)": 552
+    },
+    {
+      "Model": "OPT Model",
+      "CO2 Emissions (tonnes)": 76.3
+    },
+    {
+      "Model": "BLOOM Model",
+      "CO2 Emissions (tonnes)": 30
+    },
+    {
+      "Model": "GOPHER Model",
+      "CO2 Emissions (tonnes)": 380
+    }
+  ]

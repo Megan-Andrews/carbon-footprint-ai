@@ -9,7 +9,6 @@ const Estimation = () => {
   const [selectedGamma, setSelectedGamma] = useState(0);
   const [selectedPUE, setSelectedPUE] = useState(0);
 
-  const [selectedHours, setSelectedHours] = useState(0);
   const [selectedChips, setSelectedChips] = useState(0);
   const [selectedGrid, setSelectedGrid] = useState(0);
 
@@ -28,10 +27,6 @@ const Estimation = () => {
     setSelectedPUE(e.target.value);
   };
 
-  const handleHoursChange = (e) => {
-    setSelectedHours(e.target.value);
-  };
-
   const handleChipsChange = (e) => {
     setSelectedChips(e.target.value);
   };
@@ -41,28 +36,29 @@ const Estimation = () => {
   };
 
   const handleSubmit = () => {
-    setEmissions(selectedGPU * selectedGamma * selectedPUE * selectedHours * selectedChips * selectedGrid);
+    setEmissions(selectedGPU * selectedGamma * selectedPUE  * selectedChips * selectedGrid / 50 / 5 * 0.001);
+    console.log(emissions)
     setEmissionsResult(
-    <div className='text-2xl font-bold text-center text-lime-200'>
-      Your model emits {emissions} kg of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
+    <div className='text-2xl font-bold text-center text-white'>
+      Your model emits {emissions} tonnes of CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> per year
     </div>
     );
     console.log('Form submitted');
     console.log('Selected GPU:', selectedGPU);
     console.log('Selected Gamma:', selectedGamma);
     console.log('Selected PUE:', selectedPUE);
-    console.log('Selected Hours:', selectedHours);
     console.log('Selected Chips:', selectedChips);
     console.log('Selected Grid:', selectedGrid);
     
   };
 
   return (
-    <div className=" space-y-4"> 
+    <div className=" space-y-4 rounded mx-10 bg-neutral-800"> 
+      <div style={{"height":"10px"}}></div>
         <div className='text-4xl font-bold text-center py-4 text-stone-100'>
           Estimate the CO<span className="text-base text-4xl font-bold"><sub>2</sub></span> emissions of your model
         </div>
-        <div style={{height:"80px"}}>
+        <div style={{height:"30px"}}>
           {emissionsResult ? emissionsResult : <></>}
         </div>
           <div className='px-[20vw]  space-y-4'>
@@ -79,14 +75,6 @@ const Estimation = () => {
               <Dropdown onChange={handleDropdownPUEChange} options={gpu} labelKey="name" valueKey="tdp_watts"/>
             </div>
             <div className='text-left flex flex-row space-x-4'>
-              <div className='flex-grow'><span className='text-stone-400 font-bold'>Hours trained</span> 
-                  <input
-                    type="number"
-                    placeholder="Enter a number"
-                    className="w-full px-4 py-2 border border-gray-300 rounded text-stone-600"
-                    onChange={handleHoursChange}
-                  />
-              </div>
               <div className='flex-grow'>
                 <span className='text-stone-400 font-bold'>Number of processors</span>
                 <input
@@ -116,6 +104,7 @@ const Estimation = () => {
        >
          Submit
        </button>
+       <div style={{"height":"30px"}}></div>
     </div>
   );
 };

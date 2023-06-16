@@ -22,4 +22,63 @@
     height: 100%;
     justify-content: center;
   }
-  
+
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 20;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+  /* background-size: cover; Adjusted property */
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+
+#one {
+  background-image: url(../images/home/1.png);
+}
+
+#two {
+  background-image: url(../images/home/2.png);
+}
+
+#three {
+  background-image: url(../images/home/3.png);
+}
+
+#four {
+  background-image: url(../images/home/4.png);
+}
+
+#five {
+  background-image: url(../images/home/5.png);
+}
+
+#six {
+  background-image: url(../images/home/6.png);
+}
+
+#seven {
+  background-image: url(../images/home/7.png);
+}
+
+#eight {
+  background-image: url(../images/home/8.png);
+}
+
+#nine {
+  background-image: url(../images/home/9.png);
+}
